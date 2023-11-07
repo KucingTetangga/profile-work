@@ -70,6 +70,6 @@ jobs:
           app-name: 'suprflask'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA5E20F82E8B45AE974E6BC78959030E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9FED5153D7B646C4B401E9D1852B4A97 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
